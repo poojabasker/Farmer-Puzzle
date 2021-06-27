@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<GL/glut.h>
 
-int left_bank[] = { 1,1,1 }, right_bank[] = { 0,0,0 }, boat[] = { 0,0,0 }; //{ wolf, sheep, boat }1`
+int left_bank[] = { 1,1,1 }, right_bank[] = { 0,0,0 }, boat[] = { 0,0,0 }; //{ wolf, sheep, grass }
 int g = 0, s = 0, w = 0, b = 0, mo = 0; //displacement values
 int left = 0, right = 1, move = 0; //boat values
 int right_positions[] = { 730,970,1180 }, boat_positions[] = { 130,260,360 }; //position on back and boat
